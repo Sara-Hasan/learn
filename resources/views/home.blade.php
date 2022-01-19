@@ -50,4 +50,17 @@
         </div>
     </div>
 </section>
+<header class="info">
+    <div class="info-bg">
+        <div class="text">
+            <div class="in"> <a href="#" > Course </a> </div>
+            <div class="in"> <a href="#" > Course </a> </div>
+            <div class="in"> <a href="#" > Course </a> </div>
+            <div class="in"> <a href="#" > Course </a> </div>
+        </div>
+    </div>  
+</header>
+<section class="content">
+    
+</section>
 @endsection

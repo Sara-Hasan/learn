@@ -235,6 +235,24 @@ header .head{
     font-size: .8rem;
     color: #686868;
 }
+/************* Information *********/
+.info{
+    background-image: url('../img/info-bg.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+    width: 100%;
+}
+.info-bg{
+    background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+    opacity: .8;
+    height: 400px;
+    width: 100%;
+}
+.text {
+    
+}
 /************* Footer **************/
 footer{
     padding-top: 100px;

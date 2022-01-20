@@ -213,9 +213,10 @@ header .head{
     grid-template-columns: repeat(4 , 1fr);
     grid-gap: 2%;
 }
-.course img {
+.course .picture {
     width: 100%;
     height: 60%;
+    background-size: cover;
 }
 .course{
     background-color: #fff;
@@ -235,8 +236,9 @@ header .head{
     font-size: .8rem;
     color: #686868;
 }
+
 /************* Information *********/
-.info{
+.info {
     background-image: url('../img/info-bg.jpeg');
     background-attachment: fixed;
     background-size: cover;
@@ -244,19 +246,98 @@ header .head{
     color: #fff;
     width: 100%;
 }
-.info-bg{
+.info-bg {
     background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
     opacity: .8;
     height: 400px;
     width: 100%;
 }
-.text {
-    
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    padding: 0 20px;
+}
+.icon , .text {
+    flex: 30%;
+}
+.info .row {
+    padding: 10em 0;
+}
+.icon .fas {
+    font-size: 4em;
+}
+.number {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+}
+.info .text {
+    display: block;
+}
+.info .text span {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/************* Services **************/
+
+.services .row {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2%;
+}
+.services .col .image{
+    box-shadow: 0px 10px 23px -8px rgb(0 0 0 / 11%);
+    width: 20em; 
+    height: 28em;
+    background-size: cover;
+}
+.services .row-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+    margin: 6% 0;
+}
+.services .col-sec {
+    background-color: #F5F7FA;
+    height: 26em;
+    padding: 20px;
+    text-align: center;
+    width: 20em;
+    height: 20em;
+    border-radius: 10%;
+}
+.services .col-sec i {
+    font-size: 2em;
+    color: #fff;
+}
+.services .col-sec div {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #4986FC;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 8px -5px #f5eab8;
+    margin-bottom: 20px;
+}
+.services .col-sec p {
+    margin: 20px 0;
 }
 /************* Footer **************/
+
 footer{
     padding-top: 100px;
     padding-bottom: 50px;
+    background-color: #F2F7FD;
 }
 footer .three {
     display: grid;

@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/log.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -27,7 +28,8 @@
     <label class="logo">
         <a href="index.html">
          {{-- <i class="fas fa-code"></i> --}}
-          Learn Arabic 
+            Arabiaمرحباً 
+          {{-- <img src="../img/arabia.jpg" alt=""> --}}
          </a> 
     </label>
     <ul>

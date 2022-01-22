@@ -524,23 +524,32 @@ header .head{
     line-height: 1.5;
 }
 /************* Contact **************/
-.contact {
-}
+
 .contact .contacting{
     box-shadow: 0px 2px 25px -13px rgb(0 0 0 / 26%);
     border-radius: 20px;
-    padding: 20px 50px;
 }
-.contact .text {
-    padding: 50px 0;
+.contact .bg-contact {
+    background-image: url('https://images.pexels.com/photos/4492129/pexels-photo-4492129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    width: 33%;
     text-align: left;
-    width: 20%;
 }
-.contact .text p {
-    color: #999999;
+.contact .bg-opacity {
+    background-color: rgb(204, 204, 204,0.4);
+    width: 100%;
+    height: 100%;
+    padding: 50px 40px;
+    text-align: left;
+}
+.contact .bg-opacity p {
+    color: #000;
     font-size: 1.2rem;
     line-height: 2;
     margin-top: 20px;
+}
+.contact .send {
+    padding-right: 40px;
 }
 .contact .flex-item-left {
     flex: 30%;
@@ -548,28 +557,28 @@ header .head{
 .contact .flex-item-right {
     flex: 60%;
 }
-.contact .form-group {
-    margin-right: 15px;
+.contact .form-group:nth-of-type(2) {
+    margin-left: 15px;
 }
 .contact li {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: 25px;
 }
 .contact .label {
     text-align: left;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 13px;
 }
 input[type=text] {
     width: 100%;
     height: 40%;
     padding: 12px 20px;
-    margin: 18px 0;
+    margin: 0 0 15px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: .9rem;
-    background-color: #F5F7FA;
+    background-color: #F2F2F2;
     border: none;
 }
 input[type=submit] {

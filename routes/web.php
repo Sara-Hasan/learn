@@ -31,3 +31,10 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view('signup');
 });
+//admin
+Route::get('/mainpage', function () {
+    return view('admin.mainpage');
+});
+Route::get('/useradmin', function () {
+    return view('admin.user');
+});
